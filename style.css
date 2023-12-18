@@ -46,7 +46,7 @@ h1 {
 
 .fa-regular,
 .far {
-  display: block;
+  display: block !important;
   text-align: center;
   padding-top: 69%;
   font-size: 8rem;
