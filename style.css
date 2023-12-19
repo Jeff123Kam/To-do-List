@@ -130,6 +130,9 @@ p {
   .container {
     width: 100%;
     border: none;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border-radius: 0%;
   }
 
   /* Top section */
@@ -160,4 +163,21 @@ p {
   #addTask {
     margin-left: 10px;
   }
+}
+
+/* Dark mode css */
+/*  */
+/*  */
+/* Dark mode css */
+
+.container-Dark {
+  background-color: black;
+}
+
+.button-dark {
+  background-color: black;
+}
+
+.make-text-white {
+  color: white;
 }
