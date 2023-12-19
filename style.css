@@ -24,17 +24,25 @@ body {
   border-radius: 5%;
 }
 
+/* Top section */
+/*  */
+/*  */
+/* Top section */
+
 .top-section {
-  height: 90%;
+  height: 88%;
   padding-left: 8%;
   padding-top: 10%;
   padding-right: 5%;
   position: relative;
 }
 
-.fa-solid,
-.fas {
-  float: right;
+.lightUp {
+  position: absolute;
+  left: 83%;
+}
+
+.styleSun {
   font-size: 4rem;
 }
 
@@ -44,8 +52,7 @@ h1 {
   font-size: 3rem;
 }
 
-.fa-regular,
-.far {
+i.fa-regular.fa-note-sticky.StyleTaskIcon {
   display: block !important;
   text-align: center;
   padding-top: 69%;
@@ -57,4 +64,62 @@ p {
   font-size: 2rem;
   padding-top: 6%;
   color: gray;
+}
+
+/* Lower section */
+/*  */
+/*  */
+/* Lower section */
+
+.lower-section {
+  height: 12%;
+  background: black;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  padding-left: 3%;
+  padding-top: 6%;
+  padding-right: 4%;
+}
+
+.stylePlus {
+  background-color: white;
+  border-radius: 50%;
+  font-size: 3rem;
+  padding: 2%;
+}
+
+#newTaskInput {
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  width: 80%;
+  height: 68%;
+  font-size: 3rem;
+  background-color: black;
+  color: gray;
+  border-color: gray;
+}
+
+#addTask {
+  border-radius: 50%;
+  border: none;
+  padding: 6px;
+  margin-left: 7%;
+  background-color: white;
+}
+
+/* Button */
+/*  */
+/*  */
+/* Button */
+
+.button {
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  font: inherit;
+  border-radius: 0;
+  appearance: none;
 }
