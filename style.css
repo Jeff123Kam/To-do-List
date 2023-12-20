@@ -181,3 +181,48 @@ p {
 .make-text-white {
   color: white;
 }
+
+.make-div-dark {
+  background-color: gray;
+}
+
+/* Add New Task */
+/*  */
+/*  */
+/* Add New Task */
+
+.new-div {
+  width: 100%;
+  border: solid black;
+  border-radius: 5px;
+  height: 37px;
+  margin-top: 15px;
+}
+
+.first-div {
+  margin-top: 100px;
+}
+
+.userTask {
+  display: inline;
+  font-size: 2.5rem;
+  color: black;
+  padding-left: 20px;
+}
+
+/* Add Delete Button */
+/*  */
+/*  */
+/* Add Delete Button */
+
+.deleteButton {
+  background-color: black;
+  display: inline-block;
+  font-size: 125px;
+  width: 25px;
+  height: 24px;
+  margin-top: 2px;
+  margin-left: 5px;
+  border-radius: 44px;
+  border: black;
+}
